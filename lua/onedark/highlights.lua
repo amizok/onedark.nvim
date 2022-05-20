@@ -97,10 +97,10 @@ hl.common = {
 hl.syntax = {
     String = {fg = c.green, fmt = cfg.code_style.strings},
     Character = colors.Orange,
-    Number = colors.Orange,
-    Float = colors.Orange,
+    Number = colors.Yellow,
+    Float = colors.Yellow,
     Boolean = colors.Orange,
-    Type = colors.Yellow,
+    Type = colors.Blue,
     Structure = colors.Yellow,
     StorageClass = colors.Yellow,
     Identifier = {fg = c.red, fmt = cfg.code_style.variables},
@@ -121,7 +121,7 @@ hl.syntax = {
     Special = colors.Red,
     SpecialChar = colors.Red,
     Function = {fg = c.blue, fmt = cfg.code_style.functions},
-    Operator = colors.Purple,
+    Operator = colors.Green,
     Title = colors.Cyan,
     Tag = colors.Green,
     Delimiter = colors.LightGrey,
@@ -349,14 +349,14 @@ hl.plugins.nvim_tree = {
     NvimTreeFolderName = colors.Blue,
 }
 hl.plugins.telescope = {
-    TelescopeBorder = colors.Red,
-    TelescopePromptBorder = colors.Cyan,
-    TelescopeResultsBorder = colors.Cyan,
-    TelescopePreviewBorder = colors.Cyan,
-    TelescopeMatching = { fg = c.orange, fmt = "bold" },
-    TelescopePromptPrefix = colors.Green,
-    TelescopeSelection =  { bg =c.bg2 },
-    TelescopeSelectionCaret = colors.Yellow
+    TelescopeBorder         = colors.Blue,
+    TelescopePromptBorder   = colors.LightGrey,
+    TelescopeResultsBorder  = colors.LightGrey,
+    TelescopePreviewBorder  = colors.LightGrey,
+    TelescopeMatching       = {fg = c.red, fmt = "bold"},
+    TelescopePromptPrefix   = colors.Green,
+    TelescopeSelection      =  { bg =c.bg2 },
+    TelescopeSelectionCaret = colors.Green
 }
 
 hl.plugins.dashboard = {
